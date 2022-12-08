@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import s from "./Detail.module.css"
 
 
 
@@ -63,7 +64,7 @@ export default function Detail() {
     }
     return (
         <div>
-            <button onClick={handleCLick}>Go Home</button>
+            <button className={s.miBoton} onClick={handleCLick}>Go Home</button>
             {character ? (
                 <div >
                     <div >

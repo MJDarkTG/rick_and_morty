@@ -6,7 +6,7 @@ export default function Card(props) {
    return (
       <div className={styles.card}>
          <button onClick={props.onClose}>X</button>
-         <h6>{props.id}</h6>
+         {/* <h6>{props.id}</h6> */}
          <Link to={`/detail/${props.id}`}>
             <h2>{props.name}</h2>
          </Link >
