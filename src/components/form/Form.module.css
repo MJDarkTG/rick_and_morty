@@ -1,0 +1,41 @@
+.container{
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5%;
+}
+.container form{
+    display: inline-block;
+    background-color: #691A49;    
+    padding: 46px;
+    border-radius: 5%;
+    border: 6px solid #33997D;
+
+}
+.container input{
+    margin: 10px;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    border: solid #06d6a0;
+    color: #370617;
+    font-weight: 700;
+    font-size: 1em;
+}
+.Btn{
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    border: solid #06d6a0;
+    color: #370617;
+    font-weight: 700;
+    font-size: 1em;
+    /* &:hover */
+}
+.Btn:hover{
+    background-color: #ffd60a;
+    cursor: pointer;
+}
+
+.container input:hover{
+    background-color: #ffd60a;
+}

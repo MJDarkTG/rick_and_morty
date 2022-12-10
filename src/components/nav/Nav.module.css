@@ -8,12 +8,11 @@
     margin: 5px;
     padding: 10px;
     font-size: 25px;
-    color: aliceblue;
-    
+    color: aliceblue;    
     text-decoration: auto;
 }
 .miNav a:hover{
-    background-color: #ffd60a;
+    background-color: #D2770C;
     /* border-radius: 0.5em; */
     /* margin: 0.5em; */
     cursor: pointer;

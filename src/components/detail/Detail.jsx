@@ -66,8 +66,8 @@ export default function Detail() {
         <div>
             <button className={s.miBoton} onClick={handleCLick}>Go Home</button>
             {character ? (
-                <div >
-                    <div >
+                <div className={s.containerDetail}>
+                    <div className={s.datos} >
                         <h2>Nombre: {character.name}</h2>
                         <h5>Status: {character.status}</h5>
                         <h5>Especie: {character.species}</h5>

@@ -13,12 +13,17 @@
     position: relative;
     margin: 5px;
 }
-
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .card h2 {
     color: #370617;
 }
 
-.card button {
+.miSel select {
     border: #06d6a0 solid;
     border-radius: 0.5em;
     margin: 0.5em;

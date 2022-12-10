@@ -4,12 +4,12 @@ import styles from "./Cards.module.css"
 export default function Cards(props) {
    const { characters,onClose } = props;
    // console.log(characters);
-   return <div className={styles.container}>
+   return <div  className={styles.container}>
       {
          
-         characters.map((char, index) => 
+         characters.map((char) => 
          <Card 
-         key={index}
+         
          id={char.id}
          name={char.name}
          species={char.species}
